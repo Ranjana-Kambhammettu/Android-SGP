@@ -1,2 +1,2 @@
 # Android-SGP
--- A part of ISTE SMP
+_A part of ISTE SMP_
