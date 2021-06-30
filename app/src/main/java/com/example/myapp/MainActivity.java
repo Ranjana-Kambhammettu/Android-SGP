@@ -19,9 +19,9 @@ public class MainActivity extends AppCompatActivity {
 
         RecyclerView recyclerView = findViewById(R.id.recyclerView);
 
-        list.add(new DataClass("Ranjana","0561234567",R.drawable.pic));
-        list.add(new DataClass("Sudhesh","0507654321",R.drawable.pic2));
-        list.add(new DataClass("Pranav","0529876543",R.drawable.pic3));
+        list.add(new DataClass("Headphones","The best headphones you'll ever need!",R.drawable.pic));
+        list.add(new DataClass("Joystick","Your gaming partner, always!",R.drawable.pic2));
+        list.add(new DataClass("Keyboard","Long life, WASD included!",R.drawable.pic3));
         RecyclerViewAdapter adapter = new RecyclerViewAdapter(list);
         recyclerView.setAdapter(adapter);
         recyclerView.setLayoutManager(new LinearLayoutManager(this) );

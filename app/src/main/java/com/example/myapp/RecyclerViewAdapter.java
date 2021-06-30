@@ -30,7 +30,7 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
     public void onBindViewHolder(@NonNull RecyclerViewAdapter.ViewHolder holder, int position) {
     DataClass data= list.get(position);
     holder.nameTV.setText(data.name);
-    holder.mobTV.setText(data.mob);
+    holder.infoTV.setText(data.info);
     holder.imageView.setBackgroundResource(data.img_name);
     }
 
@@ -41,12 +41,12 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
 
     static class ViewHolder extends RecyclerView.ViewHolder {
         TextView nameTV;
-        TextView mobTV;
+        TextView infoTV;
         ImageView imageView;
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
             nameTV= itemView.findViewById(R.id.nameTV);
-            mobTV= itemView.findViewById(R.id.mobTV);
+            infoTV= itemView.findViewById(R.id.infoTV);
             imageView= itemView.findViewById(R.id.imageView);
         }
     }

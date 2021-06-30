@@ -2,11 +2,11 @@ package com.example.myapp;
 
 public class DataClass {
     String name;
-    String mob;
+    String info;
     int img_name;
-    DataClass (String mName, String mMob, int mImg_name) {
+    DataClass (String mName, String mInfo, int mImg_name) {
         name=mName;
-        mob=mMob;
+        info=mInfo;
         img_name=mImg_name;
     }
 }
